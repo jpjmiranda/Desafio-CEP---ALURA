@@ -1,0 +1,16 @@
+[
+  {
+    "cep": "15970-216",
+    "logradouro": "Rua dos Placido",
+    "bairro": "Jardim Bela Vista",
+    "uf": "SP",
+    "estado": "São Paulo"
+  },
+  {
+    "cep": "15970-200",
+    "logradouro": "Rua dos Aquino",
+    "bairro": "Jardim Bela Vista",
+    "uf": "SP",
+    "estado": "São Paulo"
+  }
+]
