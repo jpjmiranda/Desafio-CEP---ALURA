@@ -4,7 +4,7 @@ public class BuscaCEP {
     private String cep;
     private String logradouro;
     private String bairro;
-    private String cidade;
+    private String localidade;
     private String uf;
     private String estado;
 
@@ -21,8 +21,8 @@ public class BuscaCEP {
         return bairro;
     }
     
-    public String getCidade() {
-        return cidade;
+    public String getLocalidade() {
+        return localidade;
     }
     
     
@@ -42,8 +42,8 @@ public class BuscaCEP {
      public void setBairro(String bairro) {
         this.bairro = bairro;
     }
-     public void setCidade(String cidade) {
-        this.cidade = cidade;
+     public void setLocalidade(String localidade) {
+        this.localidade = localidade;
     }
      public void setUf(String uf) {
         this.uf = uf;
@@ -56,8 +56,8 @@ public class BuscaCEP {
     public String toString() {
         return "(CEP = " + cep +
                 ", Logradouro = " + logradouro + "," +
-                " Bairro = " + bairro + "Cidade = " + cidade +
+                " Bairro = " + bairro + " Localidade = " + localidade +
                 ", UF = " + uf + "," +
-                " Estado = " + estado + ")";
+                " Estado = " + estado + ") ";
     }
 }
